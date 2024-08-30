@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset = utf-8" />
+    <title>Untitled Document</title>
+    <script language = "javascript" type="text/javascript">
+        var a = eval(prompt("Nhap vao canh a:"));
+        var b = eval(prompt("Nhap vao canh b:"));
+        var c = eval(prompt("Nhap vao canh c:"));
+        if (a+b>c && a+c>b && b+c>a){
+            alert("La cac canh cua tam giac");
+            if (a==b && a==c && b==c){
+                document.writeln("Tam giac ABC deu");
+            }else
+            if (a==b || a==c || b==c){
+                document.writeln("Tam giac ABC can")
+            }else {
+                document.writeln("Tam giac ABC la tam giac thuong")
+            }
+        }else{
+            document.writeln("Khong phai la tam giac")
+        }
+    </script>
+</head>
+</html>
